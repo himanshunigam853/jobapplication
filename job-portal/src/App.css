@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.bor1{
+    border: 2px solid black;
+}
+.bor2{
+    border: 2px solid green;
+}
+.bor3{
+    border: 2px solid red;
+}
+
+.hero-section{
+    height: 500px;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image{
+    background-image: url('images/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sub-content{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    width: fit-content;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.heading{
+    color: white;
+}
+
+input{
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 20px;
+}
